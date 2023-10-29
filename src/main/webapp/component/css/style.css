@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: #2B2B2B ;
+}
+
+#nav{
+    background-color: #75757527;
+}
+
+#card-header{
+    background-color: #505050;
+}
+
+#card-body{
+    background-color:#2B2B2B ;
+}
