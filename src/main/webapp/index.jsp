@@ -5,7 +5,10 @@
 <jsp:include page="component/navbar.jsp"></jsp:include>
 
 
-	
+	<%
+		SessionFactory factory = HibernateUtill.getSessionFactory();	
+		out.print(factory);
+	%>
 
 <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
